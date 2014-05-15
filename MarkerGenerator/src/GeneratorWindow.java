@@ -22,7 +22,7 @@ import javax.swing.JFileChooser;
 import javax.swing.JScrollPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import sun.awt.VerticalBagLayout;
+//import sun.awt.VerticalBagLayout;
 
 public class GeneratorWindow extends Applet {
 
@@ -84,7 +84,7 @@ public class GeneratorWindow extends Applet {
 		p.add(saveAllButton);
 
 		outer.add(p);
-		outer.setLayout(new VerticalBagLayout());
+//		outer.setLayout(new VerticalBagLayout());
 
 		ScrollPane s = new ScrollPane();
 		s.add(outer);
